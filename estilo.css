@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    display: flex;
+    flex-wrap: row wrap;
+    align-items: center;
+    justify-content: center;
+    height: 300px;   
+}
+
+#rel{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-size: 80px;
+    width: 330px;
+    height: 230px;
+    background-color: #000;
+    border-radius: 35px;
+}
